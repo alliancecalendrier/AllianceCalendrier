@@ -14,7 +14,7 @@ h4{
 	font-size: 30px;
 }
 h5{
-
+	font-size: 25px;
 }
 h6 {
 	font-size: 20px;
@@ -51,6 +51,8 @@ div{
 	background-color: #383f51;
 }
 .filtre{
+	padding-bottom: 20px;
+	padding-top: 20px;
 /*	padding : 20px;
 	padding-left : 240px;
 */
