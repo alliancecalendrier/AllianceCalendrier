@@ -1,23 +1,16 @@
 
 /*------police-------*/
-h1, h2, h3, h4 , h5, h6, h7 {
+h3, h4 , h5, h6, h7 {
 	font-family: 'Muli', sans-serif;
 }
 
-h1{ 
-	color : white;
-	font-weight: 50px;
 
-}
-h2{
-	color: white;
 
-}
 h3{
 	color:#303851;
 }
 h4{
-
+	color: white;
 }
 h5{
 
@@ -35,7 +28,7 @@ text-align: left;
 
 /*----------------div-----------------*/
 body{
-	background-color: #BFC0c0 0.75;
+	background-color: #dddbf1 ;
 
 }
 
@@ -44,55 +37,63 @@ div{
 }
 /*----------------id et class-----------------*/
 #header{
-	background-color: #0d2c54;
-	border-bottom: 7px solid #353b3c;
+	background-image: url("image/bandeau.png");
+	border-bottom: 7px ;
+	padding: 300px 0 100px 0;
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	height: 80vh;
 }
 
-#barre{
-	box-shadow : 1px 1px 5px darkgrey;
-	margin: 10px;
-	border-radius: 5px;
-}
-#barre :hover{
-	box-shadow : 1px 1px 10px darkgrey;
-	border-radius: 5px;
-}
 .tri{ 
-	background-color: green;
+	background-color: #383f51;
 }
 .filtre{
+	padding : 20px;
+	padding-left : 240px;
 
 }
 
 .filterbar{ 
-	border-top: 1px dashed #353b3c;
-	box-shadow : 1px 1px 7px darkgrey;
-	background-color:lightgreen;
+	background-color:#96939b;
 	border-radius: 5px;
-}
+	}
 
 .trititre {
+	text-align: center;
 	border-radius: 5px;
 	box-shadow: 1px 1px 7px #353b3c;
 }
 
 #calendrier{
-	
+	text-align: center;
+	padding-top: 52px;
+	padding-bottom: 52px;
 }
 
 .bouton{
+	padding-left: 190px;
+	padding-bottom: 50px;
 	
 }
 
 #blah{
+	color: white;
 	padding-left: 30px;
 }
 
 #logo{
 	background-color: white;
 	text-align: center;
-	box-shadow : 1px 0px 5px darkgrey;
+	box-shadow : 20px 30px 5px #96939b;
+	border-radius: 10px;
+
 
 }
 
+.fond{
+	background-image: url("image/fond.png");
+
+}
 
